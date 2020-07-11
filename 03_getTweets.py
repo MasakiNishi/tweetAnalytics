@@ -69,7 +69,7 @@ while(True):
         print("リクエスト回数:", end="")
         sys.stdout.write("%d, "% count)
         
-        res = getTweetData('CCレモン', param_next)
+        res = getTweetData('*******', param_next) #検索ワードを指定・変更
         
         if res['result']==False:
             # 失敗したら終了する
